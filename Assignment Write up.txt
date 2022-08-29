@@ -1,0 +1,26 @@
+Hi
+
+I would like to note few things:
+
+1) I create a html file that contains my dask usage when running feature_prep.py.
+The purpose of this is to give you a better sense (more info) when my code is executed in a multi-processed fashion.
+Because of this reason, the file is equivalent to the screen shot you asked for.
+
+** Update: Nevertheless I ran my code again and added the screen shot of dask UI in case you need that for grading **
+
+2) You can see the bucket name in S3 bucket screen shot. 
+
+3) Make sure you set up the environment using .ec2_initialization.sh first. 
+I will use some of the external pacakges when running feature_prep.py and final_module.py
+
+4) Before you run my feature_prep.py, make sure you have prepared the data first. "2009q1" is what you need.
+Thus, I strongly recommend you read my code first if you run into any trouble. 
+
+5) For label generation part, please modify the URL in which you can get access to the data. 
+The original data source in my s3 bucket is deleted since it is not required to submit. 
+Remember to prepared the data.
+
+6) In final_module.py we fit the model and get a score which evaluates the model.
+
+7) My code works perfectly fine when we run the code, so if you have any questions regarding the execution of our code
+or any trouble related to it, please contact me anytime time you want. I will try my best to resolve the issue for you.
